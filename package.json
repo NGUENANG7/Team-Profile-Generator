@@ -1,1 +1,6 @@
-{}
+{
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "react-scripts": "^4.0.2"
+  }
+}

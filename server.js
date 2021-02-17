@@ -8,11 +8,15 @@ const fs = require("fs");
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
-const render = require("./makeHTML");
+const render = require("./lib/htmlRenderer");
 
 const Employee = require("./lib/Employee");
 
+// creates an empty array of employees to push to.
 const team = [];
+
+// Write code to use inquirer to gather information about the development team members,
+// and to create objects for each team member (using the correct classes as blueprints!)
 
 // Questions for manager
 function showManagerQuestions() {
@@ -54,6 +58,7 @@ function showManagerQuestions() {
     })
 }
 
+
 // Questions for Engineer
 function showEngineerQuestions() {
     inquirer
@@ -84,7 +89,7 @@ function showEngineerQuestions() {
             message: "Pleas enter Engineer's Github ."
 
         }
-    ]).then(data => {
+        ]).then(data =>{
     console.log(data);
     let moreInfo = new Engineer(
         data.name,
@@ -124,7 +129,7 @@ function showInternQuestions() {
             name: "school",
             message: "Pleas enter Intern's school."
         }
-    ]).then(data => {
+        ]).then(data =>{
     console.log(data)
     let moreInfo = new Intern(
         data.name, 
@@ -175,11 +180,14 @@ function buildTeam() {
     }
     
     createTeam();
+    // createTeam() initiates prompt to add an employee
 }
 
+//file to render team array
 function writeHTML(){
     console.log(team);
     fs.writeFileSync(outputPath, render(team), "UTF-8");
 }
 
+// calling function to write file
 buildTeam();
