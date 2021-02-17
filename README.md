@@ -32,25 +32,14 @@ Team generator command line application.
 
 #
 
-![Demo](1.png)
+![Demo](npmruntest.png)
+
+#
+![Demo](Vide Demo.gif)
 
 #
 
-![Demo](passedtests.png)
-
-
-#
-![Demo](2.gif)
-
-#
-
-![Demo](3.gif)
-
-#
-
-
-![Demo](4.png)
-
+![Demo](NPM RUN TEST.gif)
 
 
 # License
