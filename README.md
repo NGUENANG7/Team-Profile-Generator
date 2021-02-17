@@ -35,11 +35,11 @@ Team generator command line application.
 ![Demo](npmruntest.png)
 
 #
-![Demo](Video Demo.gif)
+[Video Demo Link](https://drive.google.com/file/d/1P2MT2J2JAquz0VcN-iannpQyfKtuQBcF/view?usp=sharing)
 
 #
 
-![Demo](NPM RUN TEST.gif)
+[Video Demo Link NPM Run Test](https://drive.google.com/file/d/1v4cCRTGio5vwu6afqIWiG4UKWQvHGJfp/view?usp=sharing)
 
 #
 
