@@ -35,11 +35,15 @@ Team generator command line application.
 ![Demo](npmruntest.png)
 
 #
-![Demo](Vide Demo.gif)
+![Demo](Video Demo.gif)
 
 #
 
 ![Demo](NPM RUN TEST.gif)
+
+#
+
+![Demo](team.png)
 
 
 # License
